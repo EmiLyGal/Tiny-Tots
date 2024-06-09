@@ -19,9 +19,15 @@ header {
     box-shadow: 0 2px 2px #1B1818;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit
+}
+
 h1 {
     color: #1B1818;
     font-family: "Satisfy", sans-serif;
+    letter-spacing: 2px;
  } 
 
 /* Main content */
