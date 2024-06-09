@@ -76,6 +76,7 @@ nav {
 }
 
 .nav_toggle_label {
+    color: #410c31;
     font-size: 2rem;
     padding-right: 10px;
 }
