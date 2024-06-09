@@ -29,15 +29,15 @@ h1 {
     color: #1B1818;
     font-family: "Satisfy", sans-serif;
     letter-spacing: 2px;
- } 
+}
 
- #menu {
+#menu {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -48,12 +48,30 @@ h1 {
 /* Navbar style with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: #FFEFA0;
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #1B1818;
+    display: flex;
+    /* hamburger*/
+    justify-content: space-between;
+    /* hamburger*/
+    align-items: baseline;
+    /* hamburger*/
+}
+
+/* Nav toggle*/
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
     display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 /* Main content */
