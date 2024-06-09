@@ -17,6 +17,12 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #1B1818;
+    display: flex;
+    /* hamburger*/
+    justify-content: space-between;
+    /* hamburger*/
+    align-items: baseline;
+    /* hamburger*/
 }
 
 header a {
@@ -53,12 +59,9 @@ nav {
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #1B1818;
-    display: flex;
-    /* hamburger*/
-    justify-content: space-between;
-    /* hamburger*/
-    align-items: baseline;
-    /* hamburger*/
+    display: none;
+    top: 100%;
+
 }
 
 /* Nav toggle*/
