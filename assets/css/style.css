@@ -11,12 +11,12 @@
 
 /* Header */
 header {
-    background-color: #FFEFA0;
+    background-color: #F3EDCD;
     padding: 0 1 rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #1B1818;
+    box-shadow: 0 2px 2px #410c31;
     display: flex;
     /* hamburger*/
     justify-content: space-between;
@@ -32,7 +32,7 @@ header a {
 
 h1 {
     padding-left: 10px;
-    color: #1B1818;
+    color: #410c31;
     font-family: "Satisfy", sans-serif;
     letter-spacing: 2px;
 }
@@ -48,18 +48,19 @@ h1 {
 }
 
 .active {
-    border-bottom: 1px solid #1B1818;
+    border-bottom: 1px solid #410c31;
     font-weight: bold;
 }
 
 /* Navbar style with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #FFEFA0;
+    color: #410c31;
+    background-color: #F3EDCD;
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #1B1818;
+    box-shadow: 0 2px 2px #410c31;
     display: none;
     top: 100%;
 
@@ -97,9 +98,17 @@ body {
 }
 
 /* Footer */
-footer {
-    background-color: #1B1818;
-    color: white
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #F3EDCD;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    color: #410c31;
 }
 
 
