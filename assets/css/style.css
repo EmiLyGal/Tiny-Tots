@@ -1,0 +1,32 @@
+/* Asterisk wild selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+
+/* Header */
+header {
+    background-color:#FFEFA0;
+
+
+}
+
+
+/* Main content */
+main {
+    background-color: #95D5F4;
+
+
+}
+
+
+/* Footer */
+footer {
+    background-color: #161B21;
+    color: white
+
+}
