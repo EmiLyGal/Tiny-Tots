@@ -1,3 +1,6 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Ubuntu:wght@300&display=swap');
+
 /* Asterisk wild selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -8,7 +11,7 @@
 
 /* Header */
 header {
-    background-color:#FFEFA0;
+    background-color: #FFEFA0;
 }
 
 /* Main content */
