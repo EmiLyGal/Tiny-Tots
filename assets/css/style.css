@@ -109,6 +109,8 @@ body {
 }
 
 #social-networks i {
+    font-size: 160%;
+    padding: 5%;
     color: #410c31;
 }
 
