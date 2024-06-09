@@ -49,6 +49,7 @@ h1 {
 
 .active {
     border-bottom: 1px solid #1B1818;
+    font-weight: bold;
 }
 
 /* Navbar style with dropdown toggle */
