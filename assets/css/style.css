@@ -79,6 +79,7 @@ main {
     background-color: #95D5F4;
     /*Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+    margin-top: 230px;
 }
 
 /* General styles */
