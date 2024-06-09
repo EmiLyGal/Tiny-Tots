@@ -30,7 +30,7 @@ header a {
     color: inherit
 }
 
-h1 {
+h1, h2 {
     padding-left: 10px;
     color: #410c31;
     font-family: "Satisfy", sans-serif;
@@ -103,6 +103,31 @@ body {
     height: 600px;
     width: 100%;
     background: url("../images/pexels-pixabay-64242.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+#cover_text {
+    /* Final rgba value sets the opacity so it is semi-transparent */
+    background-color: rgba(199, 156, 186, 0.5);
+    font-size: 130%;
+    position: absolute;
+    /* it will be placed relative to the hero section */
+    bottom: 30px;
+    /* it doesn't stick directly to the bottom of the image */
+    width: 80%;
+    /* to not cover the full width of the screen */
+    min-height: 80px;
+    /* to not cover the full width of the screen */
+    padding: 20px 10px;
+    /* bottom padding: keep balance with top padding*/
+    /* top padding: it doesn't stick to the top of the cover text */
+    /* left padding: out a bit of the edge of the screen */
+
+}
+/* style text in cover window */
+#cover_text > h2 {
+    color: #695864;
+    text-align: center;
 }
 
 /* Footer */
@@ -158,4 +183,13 @@ body {
         margin: 0 0.5rem;
     }
 
+    /* Hero */
+    #cover_text {
+        width: 500px;
+        right: 50px;
+    }
+    #cover_text > h2 {
+        font-size: 250%;
+        text-align: center;
+    }
 }
