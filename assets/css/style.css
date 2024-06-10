@@ -152,6 +152,7 @@ body {
     padding: 5px 5px;
     font-family: "Ubuntu", sans-serif;
 }
+
 #benefits ul {
     padding: 0 20px;
 }
@@ -160,6 +161,7 @@ body {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
 }
+
 #reasons>h2,
 #reasons>div,
 #benefits_parent>h2,
@@ -177,6 +179,7 @@ body {
     border-radius: 20%;
     max-width: 300px;
     max-height: 300px;
+    margin-bottom: 20px;
 }
 
 #benefits-image {
@@ -185,19 +188,21 @@ body {
     justify-content: center;
 }
 
-
-/* Not convince section */
-#not_convince{
+/* Address and map section */
+#map {
     background-color: #695864;
     color: #F3EDCD;
     width: 100%;
     margin: auto;
 }
 
+#display-google-map img.text-marker {
+    max-width: none !important;
+    background: none !important;
+}
 
-#not_convince > h2 {
-    color: #F3EDCD;
-    font-family: "Ubuntu", sans-serif;
+img {
+    max-width: none
 }
 
 
@@ -265,6 +270,7 @@ body {
         text-align: center;
     }
 
+    /* Reasons section */
     #benefits_parent,
     #benefits_baby {
         display: flex;
@@ -272,36 +278,34 @@ body {
         width: 100%;
     }
 
-        /* Reasons section */
-        #benefits {
-            display: flex;
-            flex-direction: row;
-        }
-    
-        #benefits>div {
-            flex: 1;
-        }
-    
-        #benefits_parent {
-            order: 0
-        }
-    
-        #benefits-image {
-            order: 1;
-        }
-    
-        #benefits_baby {
-            order: 2;
-        }
-    
-        #benefits_baby {
-            align-self: flex-start;
-        }
-    
-        #benefits_parent {
-            align-self: flex-end;
-        }
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
 
+    #benefits>div {
+        flex: 1;
+    }
+
+    #benefits_parent {
+        order: 0
+    }
+
+    #benefits-image {
+        order: 1;
+    }
+
+    #benefits_baby {
+        order: 2;
+    }
+
+    #benefits_baby {
+        align-self: flex-start;
+    }
+
+    #benefits_parent {
+        align-self: flex-end;
+    }
 }
 
 @media screen and (min-width: 992px) {
