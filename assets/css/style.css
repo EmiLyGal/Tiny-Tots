@@ -189,11 +189,25 @@ body {
 }
 
 /* Address and map section */
-#map {
+#map_contact {
     background-color: #695864;
     color: #F3EDCD;
     width: 100%;
     margin: auto;
+}
+
+#map {
+    max-width: 100%;
+    overflow: hidden;
+    color: red;
+    width: 350px;
+    height: 350px;
+}
+
+#display-google-map {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
 }
 
 #display-google-map img.text-marker {
@@ -203,6 +217,14 @@ body {
 
 img {
     max-width: none
+}
+
+#contact>form {
+    background-color: #695864;
+
+}
+#contact-form > h2 {
+    padding-bottom: 25px;
 }
 
 
@@ -306,6 +328,36 @@ img {
     #benefits_parent {
         align-self: flex-end;
     }
+
+    /* Address and google map section */
+    #map,
+    #contact {
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px 20px;
+    }
+
+    #map_contact {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #benefits>div {
+        flex: 1;
+    }
+
+    #contact {
+        order: 0;
+        align-self: flex-start;
+    }
+
+    #map {
+        align-self: flex-end;
+        order: 1;
+    }
+
 }
 
 @media screen and (min-width: 992px) {
