@@ -83,11 +83,9 @@ nav {
 
 /* Main content */
 main {
-    background-color: #95D5F4;
     /*Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
-    display: flex;
 }
 
 /* General styles */
@@ -129,6 +127,45 @@ body {
     color: #695864;
     text-align: center;
 }
+
+/* Reasons section */
+#reasons {
+    background-color: #F3EDCD;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#benefits_parent>div,
+#benefits_baby>div {
+    background: #c79cba80;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#reasons > h2 , #reasons > div, #benefits_parent>h2,
+#benefits_baby>h2  {
+    color: #695864;
+    font-family: "Ubuntu", sans-serif;
+}
+
+#cover-bg {
+    background: url('../images/pexels-kyle-karbowski-109303118-9666398.jpg') no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /* Makes the square image into a circle */
+    border-radius: 20%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
 
 /* Footer */
 #social-networks {
