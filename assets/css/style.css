@@ -200,8 +200,9 @@ body {
     max-width: 100%;
     overflow: hidden;
     color: red;
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
+    margin: auto;
 }
 
 #display-google-map {
@@ -219,7 +220,12 @@ img {
     max-width: none
 }
 
-#contact>form {
+/* Contact form */
+#contact {
+    left: 20px;
+}
+
+#contact > form {
     background-color: #695864;
 
 }
@@ -227,7 +233,21 @@ img {
     padding-bottom: 25px;
 }
 
+/* Sign up page */
 
+#sign_up {
+    background: url('../images/pexels-polina-tankilevitch-3875103.jpg') no-repeat top center / cover;
+    height: 750px;
+    width: 100%;
+}
+
+#sign_up > form {
+    background-color: rgba(199, 156, 186, 0.5);
+    margin: auto;
+    font-size: 130%;
+    height: 500px;
+    width: 100%;
+}
 /* Footer */
 #social-networks {
     text-align: center;
