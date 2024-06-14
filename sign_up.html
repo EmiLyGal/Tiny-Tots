@@ -18,7 +18,6 @@
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="assets/favicon/site.webmanifest">
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -51,14 +50,14 @@
 
             <form action="https://formdump.codeinstitute.net" method="POST" id="sign_up_form">
                 <h3>Your details:</h3>
-                <label for="first_name">First Name</label>
-                <input type="text" id="first_name" name="first_name" class="text_input" required>
+                <label for="first_name">First Name:</label>
+                <input type="text" id="first_name" name="first_name" class="text_input" autocomplete="given-name" required>
                 <br>
-                <label for="last_name">Last Name</label>
-                <input type="text" id="last_name" name="last_name" class="text_input" required>
+                <label for="last_name">Last Name:</label>
+                <input type="text" id="last_name" name="last_name" class="text_input" autocomplete="family-name"  required>
                 <br>
-                <label for="email_address">Email Address</label>
-                <input type="email" id="email_address" name="email_address" class="text_input" required>
+                <label for="email_address">Email Address:</label>
+                <input type="email" id="email_address" name="email_address" class="text_input" autocomplete="off" required>
                 <br>
                 <label for="baby_age">Baby's age: (choose)</label>
                 <select id="baby_age" name="age_list">
@@ -70,24 +69,21 @@
                     <option value="more_1year">more than 1 year</option>
                 </select>
                 <br>
-                <label for="baby_name">Baby's name</label>
+                <label for="baby_name">Baby's name:</label>
                 <input type="text" id="baby_name" name="baby_name" class="text_input" required>
                 <br>
                 <div class="checkbox">
                     <h3>Classes:</h3>
-                    <div>
-                        <input type="checkbox" name="baby_massage" value="yes" name="classes_preferences"
-                            value="baby_massage">
+                    <div class="classes_preferences">
+                        <input type="checkbox" name="baby_massage" id="baby_massage">
                         <label for="baby_massage">Baby massage classes</label>
                     </div>
                     <div>
-                        <input type="checkbox" name="baby_reflexology" value="no" name="classes_preferences"
-                            value="baby_reflexology">
+                        <input type="checkbox" name="baby_reflexology" id="baby_reflexology">
                         <label for="baby_reflexology">Baby reflexology classes</label>
                     </div>
                     <div>
-                        <input type="checkbox" name="baby_reflexology" value="no" name="classes_preferences"
-                            value="mellow_bumbs_meeting">
+                        <input type="checkbox" name="mellow_bumbs_meeting" id="mellow_bumbs_meeting">
                         <label for="mellow_bumbs_meeting">Mellow Bumbs meeting</label>
                     </div>
                 </div>
