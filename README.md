@@ -7,3 +7,7 @@
 This project represents the main marketing site of Tiny Tots, which runs groups and classes for customers. The main goal of the website is to enhance the reach of the website and target it at future parents, parents with infants or guardians with children under 1 year of age who want to participate in classes and groups specifically dedicated to them and their children. 
 
 ## User Experience (UX)
+
+### Target customer:
+* future parents, parents with infants or guardians with children under 1 year of age who want to participate in classes and groups,
+* customers looking for a gift idea for future parents or a baby shower.
