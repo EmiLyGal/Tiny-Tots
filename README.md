@@ -29,3 +29,15 @@ This project represents the main marketing site of Tiny Tots, which runs groups 
 * check the reviews and testimonials to confirm that this is the right place, place is thrustful and get recommendations from other parents.
 
 ### User story
+#### 1. As a new visitor:
+- I want to easily find information on courses, prices and dates,
+- I want to look for accreditation from authorities, for recommendations from other parents, 
+- I want to have a possibility of getting in contact with company if I have any doubts or questions.
+
+#### 2. As a returning visitor:
+- I want to find easily available courses and groups, commence dates,
+- I want to find community links,
+- I want to sign up on course without further hassle of calling,
+- I want to have a gift option when I buy course.
+
+## Features
