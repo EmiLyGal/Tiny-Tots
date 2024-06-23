@@ -41,3 +41,5 @@ This project represents the main marketing site of Tiny Tots, which runs groups 
 - I want to have a gift option when I buy course.
 
 ## Features
+### Colour Scheme
+-   Colour set used in the project is a combination of shades of purple and beige. Colour purple is a mixture of pink/red and blue which represent colours for a baby boy and a baby girl
