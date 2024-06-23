@@ -44,3 +44,15 @@ This project represents the main marketing site of Tiny Tots, which runs groups 
 ### Colour Scheme
 -   Colour set used in the project is a combination of shades of purple and beige. Colour purple is a mixture of pink/red and blue which represent colours for a baby boy and a baby girl
 <img src="https://github.com/EmiLyGal/Tiny_Tots_website/blob/main/media/coolers_colour_palette_for_TinyTots.PNG" alt="TinyTots_colour_palett">
+
+
+### Frameworks, Libraries & Programs Used
+1. [Google Fonts:](https://fonts.google.com/)
+   - Google fonts were used to import the "Josefin Sans" font into the style.css
+file which is used on all pages throughout the project.
+1. [Font Awesome:](https://fontawesome.com/)
+   - Font Awesome was used to add the Internet's icons and toolkit throughout the project.
+1. [Canva](https://www.canva.com/)
+   - Canva was used to create the logo for the project.
+1. [Coolers](https://coolors.co/)
+   - Coolers was used to get inspired with colours and generate the colour palette for the project.
