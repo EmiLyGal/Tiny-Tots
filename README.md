@@ -27,3 +27,5 @@ This project represents the main marketing site of Tiny Tots, which runs groups 
 * search for information on classes and plan different ways to spend time with new-born-baby during the maternity leave, 
 * expand social network and meet people with the same situation,
 * check the reviews and testimonials to confirm that this is the right place, place is thrustful and get recommendations from other parents.
+
+### User story
