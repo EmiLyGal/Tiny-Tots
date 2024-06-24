@@ -56,3 +56,7 @@ file which is used on all pages throughout the project.
    - Canva was used to create the logo for the project.
 1. [Coolers](https://coolors.co/)
    - Coolers was used to get inspired with colours and generate the colour palette for the project.
+
+## Credits:
+### Code solutions:
+1. [W3Schools](https://www.w3schools.com/howto/howto_css_bottom_nav.asp)
