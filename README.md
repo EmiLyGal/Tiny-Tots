@@ -1,4 +1,4 @@
-<img src="https://github.com/EmiLyGal/Tiny_Tots_website/blob/main/assets/media/TinyTots_logo1.png" width="315" height="93" alt="TinyTots_logo_white_background">
+<img src="https://github.com/EmiLyGal/Tiny_Tots_website/blob/main/assets/documentation_media/tiny_tots_logo1.png" width="315" height="93" alt="TinyTots_logo_white_background">
 
 <h1 align=center>Tiny Tots Website</h1> 
 
@@ -43,7 +43,7 @@ This project represents the main marketing site of Tiny Tots, which runs groups 
 ## Features
 ### Colour Scheme
 -   Colour set used in the project is a combination of shades of purple and beige. Colour purple is a mixture of pink/red and blue which represent colours for a baby boy and a baby girl
-<img src="https://github.com/EmiLyGal/Tiny_Tots_website/blob/main/assets/media/coolers_colour_palette_for_TinyTots.PNG" alt="TinyTots_colour_palett">
+<img src="https://github.com/EmiLyGal/Tiny_Tots_website/blob/main/assets/documentation_media/coolers_colour_palette.PNG" alt="TinyTots_colour_palett">
 
 
 ### Frameworks, Libraries & Programs Used
