@@ -7,7 +7,7 @@
 
     <!-- Meta tags for search engines-->
     <meta name="description"
-        content="Baby massage, baby reflexology and workshops for parents with infants in Limerick. Online classes available.">
+        content="Baby massage, baby reflexology and workshops for parents with infants in Limerick.">
     <meta name="keywords"
         content="baby massage, baby reflexology, massage, workshops, infant, mellow bump, parent's support, love parenting, parenting, Limerick, Ireland">
 
@@ -37,49 +37,43 @@
         <!-- Navigation bar -->
         <nav>
             <ul id="menu">
-                <li><a href="index.html" class="active">HOME</a></li>
+                <li><a href="index.html">HOME</a></li>
                 <li><a href="classes.html">CLASSES</a></li>
-                <li><a href="sign_up.html">SIGN UP</a></li>
+                <li><a href="sign_up.html" class="active">SIGN UP</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Main Content-->
     <main>
-        <section id="hero">
-            <div id="cover_text">
-                <h2>Welcome to Tiny Tots!</h2>
+           <!-- Contact form and google map section-->
+           <section id="map_contact">
+            <div id="contact">
+                <form action="https://formdump.codeinstitute.net" method="POST" id="contact-form">
+                    <h2><i class="fa-solid fa-envelope"></i> Contact us:</h2>
+                    <label for="Name"></label>
+                    <input type="text" id="first-name" name="first-name" class="text-input" required placeholder="Name">
+                    <br>
+                    <label for="phone-number"></label>
+                    <input type="number" id="phone-number" name="phone-number" class="text-input" required
+                        placeholder="Phone number">
+                    <br>
+                    <label for="email"></label>
+                    <input type="email" id="email-address" name="email-address" class="text-input" required
+                        placeholder="Email">
+                    <br>
+                    <textarea name="first" id="first" placeholder="Type your message here" rows="10"
+                        cols="40"></textarea>
+                    <button type="submit" class="join-button">Submit!</button>
+                </form>
+            </div>
+            <div id="map" >
+                <h2><i class="fa-solid fa-envelope"></i>Find us:</h2>
+                <div id="display-google-map" style="height:100%; width:100%;max-width:100%;"><iframe
+                        style="height:100%;width:100%;border:0;" frameborder="0"
+                        src="https://www.google.com/maps/embed/v1/place?q=Barackview+HSE+limerick+Ireland&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
             </div>
         </section>
-        <!-- Benefits section-->
-        <section id="reasons">
-            <h2>WHY CLASSES WITH US?</h2>
-            <div id="benefits">
-                <div id="benefits_parent">
-                    <h2><i class="fa-solid fa-person-breastfeeding"></i>FOR PARENTS</h2>
-                    <hr>
-                    <ul>
-                        <li>Reducing stress</li>
-                        <li>Promoting positive attachment</li>
-                        <li>Support from other parents</li>
-                    </ul>
-                </div>
-                <div id="benefits_baby">
-                    <h2><i class="fa-solid fa-baby"></i>FOR BABIES</h2>
-                    <hr>
-                    <ul>
-                        <li>Reducing stress</li>
-                        <li>Promoting positive attachment</li>
-                        <li>Support from other parents</li>
-                    </ul>
-                </div>
-                <div id="benefits-image">
-                    <div id="cover-bg"></div>
-                </div>
-            </div>
-        </section>
- 
-
     </main>
 
     <!-- Footer -->
