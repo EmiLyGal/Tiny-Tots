@@ -230,10 +230,10 @@ body {
     position: relative;
     display: flex;
     justify-content: space-between;
-
 }
 
 .text {
+    font-family: "Josefin Sans", sans-serif;
     color: #410c31;
     background-color: rgba(199, 156, 186, 0.5);
     font-size: 130%;
@@ -243,6 +243,47 @@ body {
     right: 0;
     text-align: right;
     padding: 10px;
+}
+
+/* Classes page*/
+#image-classes {
+    background: url('../images/pexels-6188038_w1400px_h788px.png') no-repeat top center / cover;
+    height: 200px;
+    width: 100%;
+    background-color: rgba(199, 156, 186, 0.5);
+    position: relative;
+}
+
+#image-classes>h2 {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    color: #F3EDCD;
+    background-color: rgba(199, 156, 186, 0.5);
+}
+
+.class {
+    background-color: #410c31;
+    color: #F3EDCD;
+    justify-content: space-between;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.class div {
+    padding: 5px 10px;
+    box-shadow:  0.5px 0.5px #F3EDCD;
+}
+
+.class a {
+    text-decoration: none;
+    color: inherit
+}
+
+.class-active {
+    border-bottom: 1px solid #F3EDCD;
+    font-weight: bold;
 }
 
 /* Address and map section */
@@ -339,7 +380,6 @@ h2 {
     padding: 0 5px;
 }
 
-
 .checkbox {
     width: 100%;
     display: block;
@@ -371,7 +411,6 @@ h2 {
     padding: 5%;
     color: #410c31;
 }
-
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
