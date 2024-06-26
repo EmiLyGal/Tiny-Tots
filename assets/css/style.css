@@ -133,7 +133,36 @@ body {
     color: #695864;
     text-align: center;
 }
+/* Company section */
 
+#company{
+    background-color: #410c31;
+}
+
+#company h2, #company p {
+    color:#F3EDCD;
+}
+
+#company p {
+    margin: 20px;
+    max-width: 50%;
+    justify-content: center;
+}
+
+.bubbles {
+    background-color: #F3EDCD;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+#circle > h3, #circle > h4{
+    top: 75px;
+    text-align: center;
+}
+.certificates img {
+    padding: 0 ;
+}
 /* Reasons section */
 #reasons {
     background-color: #F3EDCD;
@@ -197,7 +226,7 @@ body {
     background-color: #410c31;
 }
 
-#classes h2 {
+#classes > h2 {
     text-align: center;
     color: #F3EDCD;
 }
@@ -264,14 +293,14 @@ body {
 }
 
 .class {
-    background-color: #410c31;
+    background-color: #F3EDCD;
     color: #410c31;
     justify-content: space-between;
     text-transform: uppercase;
     text-align: center;
 }
 
-.class div {
+.class > div {
     padding: 5px 10px;
     box-shadow:  0.5px 0.5px #410c31;
 }
