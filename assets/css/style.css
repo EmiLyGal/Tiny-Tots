@@ -193,6 +193,15 @@ body {
 }
 
 /* classes section */
+#classes {
+    background-color: #695864;
+}
+
+#classes h2 {
+    text-align: center;
+    color: #F3EDCD;
+}
+
 #cover-baby-massage {
     background: url("../images/pexels-208189_w300px_h300px.png") no-repeat top center / cover;
 
@@ -225,18 +234,16 @@ body {
 }
 
 .text {
-    color: #695864;
-    text-align: center;
+    color: #410c31;
     background-color: rgba(199, 156, 186, 0.5);
     font-size: 130%;
     position: absolute;
-    /* it will be placed relative to the hero section */
     bottom: 30px;
-    /* it doesn't stick directly to the bottom of the image */
-    width: 80%;
-
+    width: 90%;
+    right: 0;
+    text-align: right;
+    padding: 10px;
 }
-
 
 /* Address and map section */
 #map_contact {
