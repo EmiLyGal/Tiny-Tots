@@ -192,6 +192,52 @@ body {
     justify-content: center;
 }
 
+/* classes section */
+#cover-baby-massage {
+    background: url("../images/pexels-208189_w300px_h300px.png") no-repeat top center / cover;
+
+}
+
+#cover-baby-reflexology {
+    background: url("../images/pexels-3875103_w300px_h300px.png") no-repeat top center / cover;
+}
+
+#cover-baby-and-me {
+    background: url("../images/pexels-3845341_w300px_h300px.png") no-repeat top center / cover;
+}
+
+#cover-gift-box {
+    background: url("../images/pexels-6765533_w300px_h300px.png") no-repeat top center / cover;
+}
+
+.image {
+    max-width: 300px;
+    max-height: 300px;
+    height: 90vw;
+    width: 90vw;
+    margin: 20px;
+    /* Makes the square image into a circle */
+    border-radius: 20%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.text {
+    color: #695864;
+    text-align: center;
+    background-color: rgba(199, 156, 186, 0.5);
+    font-size: 130%;
+    position: absolute;
+    /* it will be placed relative to the hero section */
+    bottom: 30px;
+    /* it doesn't stick directly to the bottom of the image */
+    width: 80%;
+
+}
+
+
 /* Address and map section */
 #map_contact {
     background-color: #695864;
@@ -264,15 +310,17 @@ img {
     width: 80%;
 }
 
-#sign_up h3,h2{
+#sign_up h3,
+h2 {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 500;
     padding-bottom: 10px;
 }
 
-#baby_age{
+#baby_age {
     padding-bottom: 10px;
 }
+
 .text_input {
     background: transparent;
     color: #fafafa;
