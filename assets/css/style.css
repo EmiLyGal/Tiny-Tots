@@ -264,8 +264,8 @@ body {
 }
 
 .class {
-    background-color: #410c31;
-    color: #F3EDCD;
+    background-color: #F3EDCD;
+    color: #410c31;
     justify-content: space-between;
     text-transform: uppercase;
     text-align: center;
@@ -273,7 +273,7 @@ body {
 
 .class div {
     padding: 5px 10px;
-    box-shadow:  0.5px 0.5px #F3EDCD;
+    box-shadow:  0.5px 0.5px #410c31;
 }
 
 .class a {
