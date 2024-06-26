@@ -58,5 +58,8 @@ file which is used on all pages throughout the project.
    - Coolers was used to get inspired with colours and generate the colour palette for the project.
 
 ## Credits:
+### Images:
+1. Photo by Tima Miroshnichenko: https://www.pexels.com/photo/food-wood-light-hands-6188038/
 ### Code solutions:
 1. [W3Schools](https://www.w3schools.com/howto/howto_css_bottom_nav.asp)
+2. Specify position for (https://www.w3schools.com/cssref/pr_pos_right.php) 
