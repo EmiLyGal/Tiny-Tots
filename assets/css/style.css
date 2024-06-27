@@ -340,11 +340,16 @@ body {
     background-color: #410c31;
     height: 110px;
     width: 100%;
-    border-radius: 30%;
 }
 .points > div {
     padding: 5px 10px;
     box-shadow:  0.5px 0.5px #c79cba80;
+}
+#description-baby-massage {
+    margin: 15px;
+}
+#description-baby-massage p {
+    margin: 10px;
 }
 #buttons{
     background-color: #c79cba80;
