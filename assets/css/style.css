@@ -373,6 +373,9 @@ body {
 #contact-toggle:checked~form {
     display: block;
 }
+#contact-toggle{
+    display: none;
+}
 
 
 .contact_toggle_label {
