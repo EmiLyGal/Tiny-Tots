@@ -415,7 +415,19 @@ line-height: 1.5;
     margin: 10px;
     line-height: 1.5;
 }
-
+/*Baby reflexology - classes */
+#image-gift {
+    background: url("../images/pexels-6765533_w300px_h300px.png") no-repeat top center / cover;
+    max-width: 300px;
+    max-height: 300px;
+    height: 90vw;
+    width: 90vw;
+    margin: 20px;
+    border-radius: 20%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
 /* Contact toggle*/
 #buttons>form {
     display: none;

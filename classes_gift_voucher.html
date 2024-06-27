@@ -52,19 +52,51 @@
         </section>
         <section id="our-classes">
             <div class="class">
-                <div id="baby-massage"><a href="classes.html" >Baby massage</a></div>
+                <div id="baby-massage"><a href="classes.html">Baby massage</a></div>
                 <div id="baby-reflexology"><a href="classes_baby_reflexology.html">Baby reflexology</a></div>
-                <div id="baby-me"><a href="classes_baby_and_me.html" >Baby & Me</a></div>
-                <div id="voucher"><a href="classes_gift_voucher.html"class="class-active">Gift voucher</a></div>
+                <div id="baby-me"><a href="classes_baby_and_me.html">Baby & Me</a></div>
+                <div id="voucher"><a href="classes_gift_voucher.html" class="class-active">Gift voucher</a></div>
             </div>
         </section>
-        <section id="image-baby">
-            <h2>Baby massage</h2>
-            <div id="points">
-                <div id="price">160 Euro</div>
-                <div id="amount">6 classes</div>
-                <div id="time">90 minutes per class</div>
+        <section id="baby">
+            <h2>Gift voucher</h2>
+            <div id="image-gift">
             </div>
+            <div id="description-baby-and-me">
+                <p>Step into the world of Tiny Tots, where the well-being and development of your precious little ones
+                    take center stage. We offer a wide range of services tailored to cater to the unique needs of
+                    babies, from soothing baby massage to revitalizing baby reflexology. Our experienced practitioners
+                    create a nurturing and calming environment, ensuring that your baby's experience is both enjoyable
+                    and beneficial.
+                </p>
+                <p>
+                    Indulge in the convenience of gift vouchers, making Tiny Tots services the perfect
+                    present for new or expecting parents. Whether you're looking to alleviate colic, promote relaxation,
+                    or enhance your baby's overall health and development, Tiny Tots is here to provide personalized
+                    care and support.
+                </p>
+            </div>
+        </section>
+        <section id="buttons">
+            <input type="checkbox" id="contact-toggle" name="contact-toggle">
+            <label for="contact-toggle" class="contact_toggle_label" id="contact-us">Contact us</label>
+
+            <form action="https://formdump.codeinstitute.net" method="POST" id="contact-form">
+                <h2><i class="fa-solid fa-envelope"></i> Contact us:</h2>
+                <label for="Name"></label>
+                <input type="text" id="first-name" name="first-name" class="text-input" required placeholder="Name">
+                <br>
+                <label for="phone-number"></label>
+                <input type="number" id="phone-number" name="phone-number" class="text-input" required
+                    placeholder="Phone number">
+                <br>
+                <label for="email"></label>
+                <input type="email" id="email-address" name="email-address" class="text-input" required
+                    placeholder="Email">
+                <br>
+                <textarea name="first" id="first" placeholder="Type your message here" rows="10" cols="40"></textarea>
+                <button type="submit" class="contact-button">Submit!</button>
+            </form>
         </section>
     </main>
 
