@@ -428,6 +428,11 @@ line-height: 1.5;
     display: flex;
     justify-content: space-between;
 }
+
+#description-baby-and-me p, #description-baby-and-me h4{
+    margin: 10px;
+    line-height: 1.5;
+}
 /* Contact toggle*/
 #buttons>form {
     display: none;
