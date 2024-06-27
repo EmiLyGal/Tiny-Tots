@@ -133,14 +133,16 @@ body {
     color: #695864;
     text-align: center;
 }
+
 /* Company section */
 
-#company{
+#company {
     background-color: #410c31;
 }
 
-#company h2, #company p {
-    color:#F3EDCD;
+#company h2,
+#company p {
+    color: #F3EDCD;
 }
 
 #company p {
@@ -156,13 +158,16 @@ body {
     border-radius: 50%;
 }
 
-#circle > h3, #circle > h4{
+#circle>h3,
+#circle>h4 {
     top: 75px;
     text-align: center;
 }
+
 .certificates img {
-    padding: 0 ;
+    padding: 0;
 }
+
 /* Reasons section */
 #reasons {
     background-color: #F3EDCD;
@@ -226,12 +231,12 @@ body {
     background-color: #410c31;
 }
 
-#classes > h2 {
+#classes>h2 {
     text-align: center;
     color: #F3EDCD;
 }
 
-#cover-baby-massage{
+#cover-baby-massage {
     background: url("../images/pexels-208189_w300px_h300px.png") no-repeat top center / cover;
 
 }
@@ -281,7 +286,7 @@ body {
     width: 100%;
     background-color: rgba(199, 156, 186, 0.5);
     position: relative;
-    
+
 }
 
 #image-classes>h2 {
@@ -301,9 +306,9 @@ body {
     text-align: center;
 }
 
-.class > div {
+.class>div {
     padding: 5px 10px;
-    box-shadow:  0.5px 0.5px #410c31;
+    box-shadow: 0.5px 0.5px #410c31;
 }
 
 .class a {
@@ -315,9 +320,11 @@ body {
     border-bottom: 1px solid #F3EDCD;
     font-weight: bold;
 }
-#baby{
+
+#baby {
     background-color: #c79cba80;
 }
+
 #image-baby-massage {
     background: url("../images/pexels-208189_w300px_h300px.png") no-repeat top center / cover;
     max-width: 300px;
@@ -330,44 +337,52 @@ body {
     display: flex;
     justify-content: space-between;
 }
-#benefits-list-class{
-    list-style-type:disc;
-}
 
-.points{
+.points {
     text-align: center;
     color: #F3EDCD;
     background-color: #410c31;
     height: 115px;
     width: 100%;
 }
-.points > div {
+
+.points>div {
     padding: 5px 10px;
-    box-shadow:  0.5px 0.5px #c79cba80;
+    box-shadow: 0.5px 0.5px #c79cba80;
 }
+
 #description-baby-massage {
     margin: 15px;
 }
-#description-baby-massage p {
+
+#description-baby-massage p,
+#description-baby-massage ul {
     margin: 10px;
+    line-height: 1.5;
 }
-#buttons{
+
+#buttons {
     background-color: #c79cba80;
 
 }
-#contact-us, #book-class {
+
+#contact-us,
+#book-class {
     margin-top: 10px;
     border-radius: 10%;
     padding: 15px 30px;
     font-size: 100%;
     background-color: #410c31;
     display: block;
-    float: right;}
+    float: right;
+}
 
-#contact-us a, #book-class a{
+#contact-us a,
+#book-class a {
     color: #F3EDCD;
     text-decoration: none;
 }
+
 /* Address and map section */
 #map_contact {
     background-color: #695864;
