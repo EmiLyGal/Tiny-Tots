@@ -140,14 +140,14 @@ body {
     background-color: #410c31;
 }
 
-#company h2,
-#company p {
+#company h2 {
+    margin: 10px;
     color: #F3EDCD;
 }
 
 #company p {
     margin: 20px;
-    max-width: 50%;
+    color: #F3EDCD;
     justify-content: center;
 }
 
@@ -366,6 +366,21 @@ body {
 
 }
 
+/* Contact toggle*/
+#buttons > form {
+    display: none;
+}
+#contact-toggle:checked~form {
+    display: block;
+}
+
+
+.contact_toggle_label {
+    color: #410c31;
+    font-size: 2rem;
+    padding-right: 10px;
+}
+
 #contact-us,
 #book-class {
     margin-top: 10px;
@@ -373,6 +388,18 @@ body {
     padding: 15px 30px;
     font-size: 100%;
     background-color: #410c31;
+    color: #F3EDCD;
+    display: block;
+    float: right;
+}
+
+button {
+    margin-top: 10px;
+    border-radius: 10%;
+    padding: 15px 30px;
+    font-size: 100%;
+    background-color: #410c31;
+    color: #F3EDCD;
     display: block;
     float: right;
 }
