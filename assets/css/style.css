@@ -138,8 +138,6 @@ body {
 
 #company {
     background-color: #410c31;
-    box-shadow: 10px 10px 5px 12px #c79cba80;
-
 }
 
 #company h2 {
@@ -153,18 +151,6 @@ body {
     justify-content: center;
 }
 
-.bubbles {
-    background-color: #F3EDCD;
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-}
-
-#circle>h3,
-#circle>h4 {
-    top: 75px;
-    text-align: center;
-}
 
 .certificates img {
     padding: 0;
@@ -229,6 +215,19 @@ body {
 /* classes section */
 #classes {
     background-color: #410c31;
+    width: 100%;
+}
+
+#classes-col {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+}
+
+#classes-col div {
+    flex-basis: 250px;
+    flex-grow: 1;
+    justify-content: center;
 }
 
 #classes>h2 {
@@ -286,7 +285,6 @@ body {
     width: 100%;
     background-color: rgba(199, 156, 186, 0.5);
     position: relative;
-
 }
 
 #image-classes>h2 {
@@ -384,10 +382,9 @@ body {
 }
 
 #description-baby-and-me p,
-#description-baby-and-me h4
-{
-margin: 10px;
-line-height: 1.5;
+#description-baby-and-me h4 {
+    margin: 10px;
+    line-height: 1.5;
 }
 
 /*Baby reflexology - classes */
@@ -414,6 +411,7 @@ line-height: 1.5;
     margin: 10px;
     line-height: 1.5;
 }
+
 /*Baby reflexology - classes */
 #image-gift {
     background: url("../images/pexels-6765533_w300px_h300px.png") no-repeat top center / cover;
@@ -428,10 +426,12 @@ line-height: 1.5;
     justify-content: space-between;
 }
 
-#description-baby-and-me p, #description-baby-and-me h4{
+#description-baby-and-me p,
+#description-baby-and-me h4 {
     margin: 10px;
     line-height: 1.5;
 }
+
 /* Contact toggle*/
 #buttons>form {
     display: none;
@@ -482,21 +482,22 @@ button {
 }
 
 /* Abous us page*/
-#image-about{
+#image-about {
     height: 400px;
     width: 100%;
     background: url("../images/pexels-1181438_w1920px_h1081px.png") no-repeat center center/cover;
     position: relative;
 }
 
-#about-us{
+#about-us {
     background-color: #c79cba80;
 }
 
-#about-us p{
+#about-us p {
     margin: 10px;
     line-height: 1.5;
 }
+
 /* Address and map section in About us */
 #map_contact {
     background-color: #410c31;
@@ -514,13 +515,15 @@ button {
     margin: auto;
 }
 
-#map h2{
+#map h2 {
     color: #F3EDCD;
 }
-#address{
+
+#address {
     margin: 10px;
     line-height: 1.5;
 }
+
 #display-google-map {
     height: 100%;
     width: 100%;
