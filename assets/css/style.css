@@ -367,8 +367,33 @@ body {
 }
 
 /*Baby and Me group- classes */
-#image-baby-reflexology {
+#image-baby-and-me {
     background: url("../images/pexels-3845341_w300px_h300px.png") no-repeat top center / cover;
+    max-width: 300px;
+    max-height: 300px;
+    height: 90vw;
+    width: 90vw;
+    margin: 20px;
+    border-radius: 20%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+#description-baby-and-me {
+    margin: 15px;
+}
+
+#description-baby-and-me p,
+#description-baby-and-me h4,
+{
+margin: 10px;
+line-height: 1.5;
+}
+
+/*Baby reflexology - classes */
+#image-baby-reflexology {
+    background: url("../images/pexels-3875103_w300px_h300px.png") no-repeat top center / cover;
     max-width: 300px;
     max-height: 300px;
     height: 90vw;
@@ -385,7 +410,8 @@ body {
 }
 
 #description-baby-reflexology p,
-#description-baby-reflexology h4 {
+#description-baby-reflexology h4,
+#description-baby-reflexology li {
     margin: 10px;
     line-height: 1.5;
 }
