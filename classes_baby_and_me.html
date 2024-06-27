@@ -52,19 +52,64 @@
         </section>
         <section id="our-classes">
             <div class="class">
-                <div id="baby-massage"><a href="classes.html" >Baby massage</a></div>
+                <div id="baby-massage"><a href="classes.html">Baby massage</a></div>
                 <div id="baby-reflexology"><a href="classes_baby_reflexology.html">Baby reflexology</a></div>
                 <div id="baby-me"><a href="classes_baby_and_me.html" class="class-active">Baby & Me</a></div>
                 <div id="voucher"><a href="classes_gift_voucher.html">Gift voucher</a></div>
             </div>
         </section>
-        <section id="image-baby">
-            <h2>Baby massage</h2>
-            <div id="points">
-                <div id="price">160 Euro</div>
-                <div id="amount">6 classes</div>
-                <div id="time">90 minutes per class</div>
+        <section id="baby">
+            <h2>Baby & Me</h2>
+            <div id="image-baby-massage">
             </div>
+            <div class="points">
+                <div class="price">
+                    <h3>5 euro per class</h3>
+                </div>
+                <div class="time">
+                    <h3>60 minutes</h3>
+                </div>
+                <div class="treat">
+                    <h3>Coffee and treats included</h3>
+                </div>
+                <div class="when">
+                    <h3>every Thursday</h3>
+                </div>
+            </div>
+            <div id="description-baby-massage">
+                <p>Baby & Me groups are a wonderful opportunity for parents and babies to connect with each other and
+                    learn about infant care. These groups, facilitated by experienced professionals, offer guidance and
+                    support on topics such as feeding, sleeping, and play. Tiny Tots holds regular Baby & Me groups,
+                    fostering a sense of community and shared experiences.
+                </p>
+
+                <p>
+                    Tiny Tots hosts regular Baby & Me groups, creating a vibrant community where parents can connect
+                    with one another, share experiences, and forge lasting friendships. These groups foster a sense of
+                    belonging and support, ensuring that parents and babies navigate the early stages of parenthood with
+                    a network of peers and expert guidance. By joining a Baby & Me group</p>
+            </div>
+        </section>
+        <section id="buttons">
+            <input type="checkbox" id="contact-toggle" name="contact-toggle">
+            <label for="contact-toggle" class="contact_toggle_label" id="contact-us">Contact us</label>
+
+            <form action="https://formdump.codeinstitute.net" method="POST" id="contact-form">
+                <h2><i class="fa-solid fa-envelope"></i> Contact us:</h2>
+                <label for="Name"></label>
+                <input type="text" id="first-name" name="first-name" class="text-input" required placeholder="Name">
+                <br>
+                <label for="phone-number"></label>
+                <input type="number" id="phone-number" name="phone-number" class="text-input" required
+                    placeholder="Phone number">
+                <br>
+                <label for="email"></label>
+                <input type="email" id="email-address" name="email-address" class="text-input" required
+                    placeholder="Email">
+                <br>
+                <textarea name="first" id="first" placeholder="Type your message here" rows="10" cols="40"></textarea>
+                <button type="submit" class="contact-button">Submit!</button>
+            </form>
         </section>
     </main>
 
