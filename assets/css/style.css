@@ -363,7 +363,6 @@ body {
 
 #buttons {
     background-color: #c79cba80;
-
 }
 
 /*Baby and Me group- classes */
@@ -385,7 +384,7 @@ body {
 }
 
 #description-baby-and-me p,
-#description-baby-and-me h4,
+#description-baby-and-me h4
 {
 margin: 10px;
 line-height: 1.5;
@@ -466,7 +465,7 @@ line-height: 1.5;
 }
 
 button {
-    margin-top: 10px;
+    margin: 10px;
     border-radius: 10%;
     padding: 15px 30px;
     font-size: 100%;
@@ -482,12 +481,28 @@ button {
     text-decoration: none;
 }
 
-/* Address and map section */
+/* Abous us page*/
+#image-about{
+    height: 400px;
+    width: 100%;
+    background: url("../images/pexels-1181438_w1920px_h1081px.png") no-repeat center center/cover;
+    position: relative;
+}
+
+#about-us{
+    background-color: #c79cba80;
+}
+
+#about-us p{
+    margin: 10px;
+    line-height: 1.5;
+}
+/* Address and map section in About us */
 #map_contact {
-    background-color: #695864;
+    background-color: #410c31;
     color: #F3EDCD;
     width: 100%;
-    margin: auto;
+    height: 500px;
 }
 
 #map {
@@ -499,10 +514,18 @@ button {
     margin: auto;
 }
 
+#map h2{
+    color: #F3EDCD;
+}
+#address{
+    margin: 10px;
+    line-height: 1.5;
+}
 #display-google-map {
     height: 100%;
     width: 100%;
     max-width: 100%;
+    margin-bottom: 15px;
 }
 
 #display-google-map img.text-marker {
@@ -582,7 +605,7 @@ h2 {
 }
 
 .book-button {
-    margin-top: 10px;
+    margin: 10px;
     border-radius: 2px;
     padding: 15px 30px;
     font-size: 100%;
