@@ -231,7 +231,7 @@ body {
     color: #F3EDCD;
 }
 
-#cover-baby-massage {
+#cover-baby-massage{
     background: url("../images/pexels-208189_w300px_h300px.png") no-repeat top center / cover;
 
 }
@@ -281,6 +281,7 @@ body {
     width: 100%;
     background-color: rgba(199, 156, 186, 0.5);
     position: relative;
+    
 }
 
 #image-classes>h2 {
@@ -314,6 +315,21 @@ body {
     border-bottom: 1px solid #F3EDCD;
     font-weight: bold;
 }
+
+#image-baby-massage {
+    background: url("../images/pexels-208189_w300px_h300px.png") no-repeat top center / cover;
+    max-width: 300px;
+    max-height: 300px;
+    height: 90vw;
+    width: 90vw;
+    margin: 20px;
+    /* Makes the square image into a circle */
+    border-radius: 20%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
 
 /* Address and map section */
 #map_contact {
