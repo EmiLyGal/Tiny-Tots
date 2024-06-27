@@ -130,7 +130,7 @@ body {
 
 /* style text in cover window */
 #cover_text>h2 {
-    color: #695864;
+    color: #410c31;
     text-align: center;
 }
 
@@ -138,6 +138,8 @@ body {
 
 #company {
     background-color: #410c31;
+    box-shadow: 10px 10px 5px 12px #c79cba80;
+
 }
 
 #company h2 {
@@ -182,7 +184,6 @@ body {
     padding: 5px 5px;
 }
 
-#benefits_parent,
 #benefits_baby {
     background: #c79cba80;
     line-height: 20px;
@@ -202,7 +203,6 @@ body {
 
 #reasons>h2,
 #reasons>div,
-#benefits_parent>h2,
 #benefits_baby>h2 {
     color: #695864;
     font-family: "Josefin Sans", sans-serif;
@@ -587,7 +587,6 @@ h2 {
     }
 
     /* Reasons section */
-    #benefits_parent,
     #benefits_baby {
         display: flex;
         flex-direction: column;
@@ -603,9 +602,6 @@ h2 {
         flex: 1;
     }
 
-    #benefits_parent {
-        order: 0
-    }
 
     #benefits-image {
         order: 1;
@@ -617,10 +613,6 @@ h2 {
 
     #benefits_baby {
         align-self: flex-start;
-    }
-
-    #benefits_parent {
-        align-self: flex-end;
     }
 
     /* Address and google map section */
