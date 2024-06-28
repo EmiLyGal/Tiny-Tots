@@ -68,6 +68,10 @@ file which is used on all pages throughout the project.
 1. Photo by Tima Miroshnichenko: https://www.pexels.com/photo/food-wood-light-hands-6188038/
 2. Photo by Ksenia Chernaya: https://www.pexels.com/photo/person-touching-a-baby-s-foot-6671066/
 3. Photo by Michelle Leman: https://www.pexels.com/photo/bright-red-boxes-of-presents-with-ribbons-6765533/
+4. Photo by Polina Tankilevitch: https://www.pexels.com/photo/person-holding-baby-s-feet-3875103/
+5. Photo by Anna Shvets: https://www.pexels.com/photo/man-in-black-shirt-carrying-baby-3845344/
+6. Photo by Pixabay: https://www.pexels.com/photo/baby-holding-person-s-index-finger-64242/
+7. Photo by Pixabay: https://www.pexels.com/photo/grayscale-photography-of-baby-holding-finger-208189/
 ### Code solutions:
 1. [W3Schools](https://www.w3schools.com/howto/howto_css_bottom_nav.asp)
    - Specify position for div (https://www.w3schools.com/cssref/pr_pos_right.php) 
