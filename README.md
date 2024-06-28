@@ -74,4 +74,7 @@ file which is used on all pages throughout the project.
 7. Photo by Pixabay: https://www.pexels.com/photo/grayscale-photography-of-baby-holding-finger-208189/
 ### Code solutions:
 1. [W3Schools](https://www.w3schools.com/howto/howto_css_bottom_nav.asp)
-   - Specify position for div (https://www.w3schools.com/cssref/pr_pos_right.php) 
+   - Specify position for div (https://www.w3schools.com/cssref/pr_pos_right.php)
+2. From "Love running" project created by Code Institute, page https://formdump.codeinstitute.net was used in forms on the Tiny Tots webpage to confirm what data was submitted.
+   <img src="https://github.com/EmiLyGal/Tiny_Tots_website/blob/main/assets/documentation_media/submitted_data_confirmation.png" alt="Page confirming the information submitted to the form">
+2. 
