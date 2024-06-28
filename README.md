@@ -56,8 +56,14 @@ file which is used on all pages throughout the project.
    - Canva was used to create the logo for the project.
 1. [Coolers](https://coolors.co/)
    - Coolers was used to get inspired with colours and generate the colour palette for the project.
+1. [Toolbaz](https://toolbaz.com)
+   - Toolbaz is an AI generator tool. This tool was used to create content.
+1. [Tinypng](https://tinypng.com)
+   - Tinypng was used to compress images used on the webpage.
 
 ## Credits:
+### Content:
+1. Content was created with help AI generator tool [Toolbaz](https://toolbaz.com)
 ### Images:
 1. Photo by Tima Miroshnichenko: https://www.pexels.com/photo/food-wood-light-hands-6188038/
 ### Code solutions:
