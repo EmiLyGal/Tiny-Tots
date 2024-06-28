@@ -66,6 +66,8 @@ file which is used on all pages throughout the project.
 1. Content was created with help AI generator tool [Toolbaz](https://toolbaz.com)
 ### Images:
 1. Photo by Tima Miroshnichenko: https://www.pexels.com/photo/food-wood-light-hands-6188038/
+2. Photo by Ksenia Chernaya: https://www.pexels.com/photo/person-touching-a-baby-s-foot-6671066/
+3. Photo by Michelle Leman: https://www.pexels.com/photo/bright-red-boxes-of-presents-with-ribbons-6765533/
 ### Code solutions:
 1. [W3Schools](https://www.w3schools.com/howto/howto_css_bottom_nav.asp)
-2. Specify position for (https://www.w3schools.com/cssref/pr_pos_right.php) 
+   - Specify position for div (https://www.w3schools.com/cssref/pr_pos_right.php) 
